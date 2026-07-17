@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f0f4f8;
+  color: #1a2233;
+  margin: 0;
+  padding: 2rem;
+}
+
+.scramble {
+  max-width: 480px;
+  margin: 2rem auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  color: #2b57d6;
+}
+
+.scrambled-word {
+  font-size: 2.5rem;
+  font-weight: bold;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+  color: #1a2233;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1.1rem;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #2b57d6;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  color: #fff;
+  background: #2b57d6;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1e40b0;
+}
+
+button:disabled {
+  background: #9db0d6;
+  cursor: not-allowed;
+}
+
+.message {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 1rem 0 0;
+}
+
+.score {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #2b57d6;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.95rem;
+  color: #475569;
+}
